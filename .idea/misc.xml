@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Alam Rithika/AndroidStudioProjects/MusicPlayer - Copy - Copy (2)/app/src/main/res/layout/activity_dashboard.xml" value="0.1" />
+        <entry key="..\:/Users/Alam Rithika/AndroidStudioProjects/MusicPlayer - Copy - Copy (2)/app/src/main/res/layout/activity_favorite.xml" value="0.1" />
+        <entry key="..\:/Users/Alam Rithika/AndroidStudioProjects/MusicPlayer - Copy - Copy (2)/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Alam Rithika/AndroidStudioProjects/MusicPlayer - Copy - Copy (2)/app/src/main/res/layout/activity_play_song.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/Alam Rithika/AndroidStudioProjects/MusicPlayer - Copy - Copy (2)/app/src/main/res/layout/item_song.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/Alam Rithika/AndroidStudioProjects/MusicPlayer - Copy/app/src/main/res/drawable/selector.xml" value="0.1" />
+        <entry key="..\:/Users/Alam Rithika/AndroidStudioProjects/MusicPlayer - Copy/app/src/main/res/layout/activity_about.xml" value="0.1" />
+        <entry key="..\:/Users/Alam Rithika/AndroidStudioProjects/MusicPlayer - Copy/app/src/main/res/layout/activity_album1.xml" value="0.22" />
+        <entry key="..\:/Users/Alam Rithika/AndroidStudioProjects/MusicPlayer - Copy/app/src/main/res/layout/activity_bottom_navigation.xml" value="0.13496376811594202" />
+        <entry key="..\:/Users/Alam Rithika/AndroidStudioProjects/MusicPlayer - Copy/app/src/main/res/layout/activity_dashboard.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/Alam Rithika/AndroidStudioProjects/MusicPlayer - Copy/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Alam Rithika/AndroidStudioProjects/MusicPlayer - Copy/app/src/main/res/layout/activity_menu.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/Alam Rithika/AndroidStudioProjects/MusicPlayer - Copy/app/src/main/res/layout/activity_play_song.xml" value="0.1" />
+        <entry key="..\:/Users/Alam Rithika/AndroidStudioProjects/MusicPlayer - Copy/app/src/main/res/menu/menu.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/Alam Rithika/AndroidStudioProjects/MusicPlayer - Copy/app/src/main/res/menu/menu_navigation.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/Alam Rithika/AndroidStudioProjects/MusicPlayer/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Alam Rithika/AndroidStudioProjects/MusicPlayer/app/src/main/res/layout/activity_play_song.xml" value="0.17552083333333332" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".PlaySongActivity">
+
+    <ImageView
+        android:id="@+id/imgCoverArt"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="39dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/home1" />
+
+    <TextView
+        android:id="@+id/txtSongTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:fontFamily="@font/acme"
+        android:text="Song Title"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtArtist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="464dp"
+        android:fontFamily="@font/acme"
+        android:text="Artist"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnPrevious"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="540dp"
+        android:onClick="playPrevious"
+        android:text="PREV"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnPlayPause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="540dp"
+        android:onClick="playOrPauseMusic"
+        android:text="PLAY"
+        app:layout_constraintStart_toEndOf="@+id/btnPrevious"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="540dp"
+        android:layout_marginEnd="40dp"
+        android:onClick="playNext"
+        android:text="NEXT"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="206dp"
+        android:layout_height="23dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/btnPlayPause"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtArtist"
+        app:layout_constraintVertical_bias="0.655"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/repeatBtn"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="52dp"
+        android:onClick="repeatSong"
+        app:layout_constraintEnd_toEndOf="@+id/btnNext"
+        app:layout_constraintTop_toBottomOf="@+id/imgCoverArt"
+        app:srcCompat="@drawable/repeat_off" />
+
+    <ImageView
+        android:id="@+id/shuffleBtn"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:onClick="shuffleSong"
+        app:layout_constraintStart_toStartOf="@+id/btnPrevious"
+        app:layout_constraintTop_toTopOf="@+id/repeatBtn"
+        app:srcCompat="@drawable/shuffle_off" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
